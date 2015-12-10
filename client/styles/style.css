@@ -1,0 +1,19 @@
+body {
+  font-family: Courier New
+  font-size: 10px;
+}
+table {
+  border: 2px solid black;
+  margin-bottom: 2px;
+  background-color: #99FF99;
+  width: 400px;
+}
+
+th {
+  float: left;
+}
+
+td {
+  margin: 2px;
+}
+
