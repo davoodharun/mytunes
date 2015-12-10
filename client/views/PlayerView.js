@@ -7,7 +7,7 @@ var PlayerView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('enqueue', function(){
-      this.playFirst();
+      this.render();
     })
   },
   events: {
@@ -25,10 +25,10 @@ var PlayerView = Backbone.View.extend({
 
   },
 
-  playFirst: function(){
-    this.render();
+  // playFirst: function(){
+  //   this.render();
 
-  },
+  // },
 
   render: function() {
     return this.$el.attr('src', this.model ? this.model.get('url') : '');
