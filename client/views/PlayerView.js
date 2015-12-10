@@ -7,7 +7,7 @@ var PlayerView = Backbone.View.extend({
 
   initialize: function() {
     this.model.on('enqueue', function(){
-      this.render();
+      this.playFirst();
     })
   },
   events: {
@@ -26,6 +26,7 @@ var PlayerView = Backbone.View.extend({
   },
 
   playFirst: function(){
+    this.render();
 
   },
 
