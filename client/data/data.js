@@ -1,9 +1,9 @@
 // data.js - Defines an array of data regarding song files and their accompanying details.
 var songData = [
   {
-    url: "music/toldyou.mp3",
-    title: "Told You",
-    artist: "Getter feat. Ookay",
+    url: "http://zacharylester.com/washedoutfeelitallaround.mp3",
+    title: "Feel It All Around",
+    artist: "Washed Out",
   },
   {
     url: "http://zacharylester.com/washedoutfeelitallaround.mp3",
@@ -11,13 +11,13 @@ var songData = [
     artist: "Washed Out",
   },
   {
-    url: "music/thinkabout.mp3",
-    title: "Think About",
-    artist: "Oshi",
+    url: "http://zacharylester.com/fidlarnowaves.mp3",
+    title: "No Waves",
+    artist: "Fidlar",
   },
   {
-    url: "likewhat",
-    title: "Like What?",
-    artist: "Tennyson",
+    url: "http://zacharylester.com/fidlarnowaves.mp3",
+    title: "No Waves2",
+    artist: "Fidlar",
   }
 ];
