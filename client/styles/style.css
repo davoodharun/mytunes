@@ -1,22 +1,34 @@
 body {
-  font-family: Helvetica;
+  font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+  color: white;
   font-size: 12px;
+  background-color: black;
 }
 table {
-  border: 2px solid black;
+
   margin-bottom: 2px;
-  background-color: #99FF99;
+  background-color: black;
   width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 th {
   float: left;
-  background-color: #4CAF50;
-  color: black;
-  
+  font-size:14px;
+  color: #80b3ff;
+
 }
 
 td {
   margin: 2px;
 }
 
+.artist{
+  float:right;
+}
+
+/*audio {
+  margin-left: auto;
+  margin-right:auto;
+}*/
